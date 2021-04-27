@@ -1,0 +1,94 @@
+body {
+	background-color: #FFF4F3;
+	margin: 1em auto;
+	font-size: 16px;
+	padding: 1em;
+	text-align: left;
+	font-family: "Courier", "Verdana", "Times", sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h1 {
+	color: #000000 ;
+	font-size: 1em;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: #000000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul li::marker {
+	font-family: 'Lato', sans-serif;
+	color: #4A235A;
+	max-width: 30em;
+	width: 100%;
+	text-align: left;
+	margin: 1em auto 1em auto;
+	font-size:  1em;
+	line-height: 1.3;
+}
+
+
+img.logo {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+	margin: 2em auto;
+}
+<style>
+a:link {
+  color: #C0392B ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8E44AD ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #17202A ;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+.topnav {
+  background-color: #E5E8E8;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #CD6155;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #95A5A6;
+  color: black;
+}
+</style>
